@@ -1,0 +1,71 @@
+ html, body {
+    margin: 0;
+    padding: 0;
+} 
+
+header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+.logo{
+    height: 100px;
+    width: 180px;
+}
+
+.user-avatar{
+    border-radius: 50px;
+    height: 60px;
+    width: 60px;
+
+}
+
+hr{
+    color: grey;
+    height: 1px;
+}
+
+
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.name-location h3, p {
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 3px;
+}
+
+.post-image{
+    width: 100%;
+}
+
+.int-icon{
+    width: 40px;
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.comments{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.post-container{
+    margin-bottom: 30px;
+}
+
+
+
+
+
